@@ -26,7 +26,7 @@ SECRET_KEY = '1!w84^nlyq938plj3^0byzrr#dow)nrx0b8038da_vy+lac^gb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://netflixscrap.herokuapp.com']
+ALLOWED_HOSTS = ['netflixscrap.herokuapp.com']
 
 
 # Application definition
