@@ -9,7 +9,6 @@ idna==2.9
 psycopg2-binary==2.8.5
 pytz==2019.3
 requests==2.23.0
-selenium==3.141.0
 soupsieve==2.0
 sqlparse==0.3.1
 urllib3==1.25.8
