@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flixNet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+    <nav class="#ec407a pink lighten-1">
+        <div class="container nav-wrapper">
+            <a href="#" class="brand-logo center">Netflix</a>
+        </div>
+    </nav>
+    <form action="{% url 'searching' %}" method="post">{% csrf_token %}
+        <input type="text" name="search" placeholder="search movies">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Search</button>
+    </form>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
